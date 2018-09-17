@@ -1149,7 +1149,7 @@ module.exports = {
   gasTrade: 250000,
   gasOrder: 250000,
   ordersOnchain: false,
-  apiServer: ['https://socket01.etherdelta.com', 'https://socket02.etherdelta.com', 'https://socket03.etherdelta.com'],
+  apiServer: ['https://api.etherdelta.com', 'https://socket02.etherdelta.com', 'https://socket03.etherdelta.com'],
   userCookie: 'EtherDelta',
   eventsCacheCookie: 'EtherDelta_eventsCache',
   deadOrdersCacheCookie: 'EtherDelta_deadOrdersCache',
