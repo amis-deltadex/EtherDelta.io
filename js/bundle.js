@@ -1133,6 +1133,7 @@ module.exports = {
   contractReserveToken: 'smart_contract/reservetoken.sol',
   contractEtherDeltaAddrs: [
     { addr: '0x8d12a197cb00d4747a1fe03395095ce2a5cc6819', info: 'Deployed 02/09/2017' },
+    { addr: '0x228344536a03C0910Fb8Be9C2755c1a0bA6f89E1', info: 'Ropsten Deployed 02/09/2017'},
     { addr: '0x373c55c277b866a69dc047cad488154ab9759466', info: 'Deployed 10/24/2016 -- please withdraw' },
     { addr: '0x4aea7cf559f67cedcad07e12ae6bc00f07e8cf65', info: 'Deployed 08/30/2016 -- please withdraw' },
     { addr: '0x2136bbba2edca21afdddee838fff19ea70d10f03', info: 'Deployed 08/03/2016 -- please withdraw' },
