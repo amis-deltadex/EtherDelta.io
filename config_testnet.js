@@ -32,10 +32,12 @@ module.exports = {
   etherscanAPIKey: 'GCGR1C9I17TYIRNYUDDEIJH1K5BRPH4UDE',
   tokens: [
     { addr: '0x0000000000000000000000000000000000000000', name: 'ETH', decimals: 18 },
+    { addr: '0x949bed886c739f1a3273629b3320db0c5024c719', name: 'AMIS', decimals: 9 },
     { addr: '0x40aade55175aaeed9c88612c3ed2ff91d8943964', name: '1ST', decimals: 18 },
   ],
   defaultPair: { token: '1ST', base: 'ETH' },
   pairs: [
     { token: '1ST', base: 'ETH' },
+    { token: 'AMIS', base: 'ETH' },
   ],
 };

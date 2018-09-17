@@ -1127,7 +1127,7 @@ module.exports = (config) => {
 /* eslint-env browser  */
 
 module.exports = {
-  homeURL: 'https://etherdelta.github.io',
+  homeURL: 'https://amis-deltadex.github.io/deltadex',
   contractEtherDelta: 'smart_contract/etherdelta.sol',
   contractToken: 'smart_contract/token.sol',
   contractReserveToken: 'smart_contract/reservetoken.sol',
@@ -1149,7 +1149,7 @@ module.exports = {
   gasTrade: 250000,
   gasOrder: 250000,
   ordersOnchain: false,
-  apiServer: ['https://cache1.etherdelta.com', 'https://cache2.etherdelta.com', 'https://cache3.etherdelta.com'],
+  apiServer: ['https://socket01.etherdelta.com', 'https://socket02.etherdelta.com', 'https://socket03.etherdelta.com'],
   userCookie: 'EtherDelta',
   eventsCacheCookie: 'EtherDelta_eventsCache',
   deadOrdersCacheCookie: 'EtherDelta_deadOrdersCache',
@@ -1179,7 +1179,7 @@ module.exports = {
     { addr: '0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6', name: 'DCN', decimals: 0 },
     { addr: '0x01a7018e6d1fde8a68d12f59b6532fb523b6259d', name: 'USD.DC', decimals: 8 },
     { addr: '0xffad42d96e43df36652c8eaf61a7e6dba2ad0e41', name: 'BTC.DC', decimals: 8 },
-    // { addr: '0x949bed886c739f1a3273629b3320db0c5024c719', name: 'AMIS', decimals: 9 },
+    { addr: '0x949bed886c739f1a3273629b3320db0c5024c719', name: 'AMIS', decimals: 9 },
     { addr: '0xb9e7f8568e08d5659f5d29c4997173d84cdf2607', name: 'SWT', decimals: 18 },
     // { addr: '0xf77089f2f00fca83501705b711cbb10a0de77628', name: 'BME', decimals: 0 },
     { addr: '0xb802b24e0637c2b87d2e8b7784c055bbe921011a', name: 'EMV', decimals: 2 },
@@ -1276,10 +1276,11 @@ module.exports = {
     { addr: '0x671abbe5ce652491985342e85428eb1b07bc6c64', name: 'QAU', decimals: 8 },
     { addr: '0x3597bfd533a99c9aa083587b074434e61eb0a258', name: 'DENT', decimals: 8 },
   ],
-  defaultPair: { token: 'PLU', base: 'ETH' },
+  defaultPair: { token: 'AMIS', base: 'ETH' },
   pairs: [
     { token: 'PLU', base: 'ETH' },
     { token: '1ST', base: 'ETH' },
+    { token: 'AMIS', base: 'ETH' },
     { token: 'EDG', base: 'ETH' },
     { token: 'ARC', base: 'ETH' },
     { token: 'GNTW', base: 'ETH' },
